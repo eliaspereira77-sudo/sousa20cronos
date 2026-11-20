@@ -1,11 +1,150 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Sousa 20 Cronos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sousa 20 Cronos — 1926 a 2026</title>
+  <style>
+    :root { --azul: #0A1642; --dourado: #FFD700; --branco: #FFFFFF; --fundo: #F4F6FA; --texto: #111827; --borda: #E2E8F0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--fundo); color: var(--texto); line-height: 1.55; }
+    header { background: var(--azul); color: var(--branco); border-bottom: 4px solid var(--dourado); padding: 1.25rem 1.5rem; }
+    .topo { max-width: 1080px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .marca { font-size: 1.35rem; font-weight: 800; letter-spacing: 0.4px; }
+    .selo { background: var(--dourado); color: var(--azul); font-weight: 700; font-size: 0.8rem; padding: 0.3rem 0.75rem; border-radius: 999px; }
+    .hero { max-width: 1080px; margin: 1.25rem auto 0; padding: 0 1.5rem 0.5rem; }
+    .hero h1 { font-size: 1.8rem; color: var(--branco); margin-bottom: 0.35rem; }
+    .hero p { color: #E2E8F0; max-width: 760px; }
+    main { max-width: 1080px; margin: 1.5rem auto; padding: 0 1.25rem; display: grid; gap: 1.25rem; }
+    .grade-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; }
+    .card { background: var(--branco); border: 1px solid var(--borda); border-radius: 12px; padding: 1.35rem; box-shadow: 0 2px 10px rgba(10, 22, 66, 0.05); }
+    .card h2 { color: var(--azul); font-size: 1.15rem; margin-bottom: 0.5rem; border-left: 4px solid var(--dourado); padding-left: 0.65rem; }
+    .decadas { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.85rem 0; }
+    .btn-decada { background: var(--branco); color: var(--azul); border: 1px solid var(--azul); padding: 0.4rem 0.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 0.85rem; }
+    .btn-decada.ativa, .btn-decada:hover { background: var(--azul); color: var(--dourado); }
+    .destaque-box { background: #F8FAFC; border: 1px solid var(--borda); border-radius: 10px; padding: 1rem; margin-top: 0.65rem; }
+    .destaque-box strong { color: var(--azul); display: block; margin-bottom: 0.25rem; }
+    select, button.acao { width: 100%; padding: 0.65rem 0.8rem; border-radius: 8px; font-family: inherit; margin-top: 0.65rem; }
+    select { border: 1px solid #CBD5E1; background: var(--branco); color: var(--texto); }
+    button.acao { background: var(--azul); color: var(--branco); border: 2px solid var(--dourado); font-weight: 700; cursor: pointer; }
+    button.acao:hover { opacity: 0.94; }
+    footer { max-width: 1080px; margin: 1rem auto 2rem; padding: 0 1.25rem; color: #475569; font-size: 0.85rem; text-align: center; }
+  </style>
 </head>
-<body style="background:#0d1117;color:#c9d1d9;font-family:sans-serif;padding:2rem;">
-  <h1>Sousa 20 Cronos</h1>
-  <p>Portal Nostalgia & Cultura Pop - Online</p>
+<body>
+  <header>
+    <div class="topo">
+      <div class="marca">SOUSA 20 CRONOS</div>
+      <div class="selo">1926 – 2026 • ACERVO &amp; CULTURA</div>
+    </div>
+    <div class="hero">
+      <h1>Cem Anos de História, Memória e Cultura</h1>
+      <p>Portal editorial com linha do tempo de 1926 a 2026, memória dos anos 80, sintonia de rádios e curadoria da Cronos IA.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Linha do Tempo (1926 – 2026)</h2>
+      <p>Selecione uma década para visualizar o recorte cultural e histórico em destaque:</p>
+      <div class="decadas" id="barraDecadas"></div>
+      <div class="destaque-box" id="painelDecada"></div>
+    </section>
+
+    <div class="grade-2">
+      <section class="card">
+        <h2>Rádio &amp; Sintonia Global</h2>
+        <p>Escolha um canal de referência para acompanhar a programação temática do portal:</p>
+        <select id="selRadio" aria-label="Selecionar canal de rádio">
+          <option value="Brasil 1926–2026 — Memória &amp; MPB">Brasil 1926–2026 — Memória &amp; MPB</option>
+          <option value="Especial Anos 80 — Trilhas, TV &amp; Tokusatsu">Especial Anos 80 — Trilhas, TV &amp; Tokusatsu</option>
+          <option value="Mundo &amp; Cultura — Panorama Internacional">Mundo &amp; Cultura — Panorama Internacional</option>
+        </select>
+        <button class="acao" type="button" id="btnSintonizar">Sintonizar Canal</button>
+        <div class="destaque-box" id="statusRadio"><strong>Status do Player</strong>Pronto para sintonizar.</div>
+      </section>
+
+      <section class="card">
+        <h2>Cronos IA — Guia de Épocas</h2>
+        <p>Consulte um resumo rápido de como cada fase moldou a comunicação e a cultura:</p>
+        <select id="selTopico" aria-label="Selecionar tema da Cronos IA">
+          <option value="radiodifusao">Era do Rádio e Primeiras Transmissões</option>
+          <option value="anos80">A Efervescência Cultural dos Anos 80</option>
+          <option value="eraDigital">Da TV Analógica ao Ecossistema Digital</option>
+        </select>
+        <button class="acao" type="button" id="btnCronos">Consultar Cronos IA</button>
+        <div class="destaque-box" id="statusCronos"><strong>Cronos IA</strong>Selecione um tema e clique em consultar.</div>
+      </section>
+    </div>
+  </main>
+
+  <footer>Sousa 20 Cronos • Por Elias Pereira de Sousa • Itinga do Pará - PA</footer>
+
+  <script>
+    const marcos = [
+      { decada: "1920s–30s", titulo: "Raízes do Rádio e Primeiros Registros", resumo: "Consolidação das transmissões radiofônicas, crônicas e memória popular que inauguraram a comunicação de massa." },
+      { decada: "1950s–60s", titulo: "Expansão da Televisão e Novos Sons", resumo: "Chegada da TV aos lares, festivais musicais e transformação da linguagem audiovisual e cultural." },
+      { decada: "1980s", titulo: "Cultura Pop, Animações, Tokusatsu e Rádio FM", resumo: "Década marcante de trilhas inesquecíveis, séries, estética vibrante e forte identidade geracional." },
+      { decada: "2000s–2026", titulo: "Internet, Acervos Digitais e Inteligência Artificial", resumo: "Preservação histórica acessível em escala global, conectando memória de um século às ferramentas atuais." }
+    ];
+
+    const textosCronos = {
+      radiodifusao: "O rádio aproximou cidades e regiões distantes com voz, notícia e música, criando o primeiro palco cotidiano de memória coletiva.",
+      anos80: "Os anos 80 reuniram trilhas marcantes, séries de aventura e ficção e uma transição acelerada rumo aos computadores domésticos.",
+      eraDigital: "A digitalização permitiu catalogar décadas de história e levar cultura, som e narrativa para qualquer tela com acesso à rede."
+    };
+
+    const barra = document.getElementById("barraDecadas");
+    const painel = document.getElementById("painelDecada");
+
+    function renderDecada(idx) {
+      const item = marcos[idx];
+      painel.textContent = "";
+      const strong = document.createElement("strong");
+      strong.textContent = item.decada + " — " + item.titulo;
+      const p = document.createElement("p");
+      p.textContent = item.resumo;
+      painel.appendChild(strong);
+      painel.appendChild(p);
+
+      [...barra.children].forEach((btn, i) => {
+        btn.classList.toggle("ativa", i === idx);
+      });
+    }
+
+    marcos.forEach((m, idx) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "btn-decada";
+      btn.textContent = m.decada;
+      btn.addEventListener("click", () => renderDecada(idx));
+      barra.appendChild(btn);
+    });
+    renderDecada(2);
+
+    document.getElementById("btnSintonizar").addEventListener("click", () => {
+      const canal = document.getElementById("selRadio").value;
+      const box = document.getElementById("statusRadio");
+      box.textContent = "";
+      const st = document.createElement("strong");
+      st.textContent = "Canal Selecionado";
+      const tx = document.createElement("p");
+      tx.textContent = canal + " • Interface pronta para integração de stream de áudio.";
+      box.appendChild(st);
+      box.appendChild(tx);
+    });
+
+    document.getElementById("btnCronos").addEventListener("click", () => {
+      const chave = document.getElementById("selTopico").value;
+      const box = document.getElementById("statusCronos");
+      box.textContent = "";
+      const st = document.createElement("strong");
+      st.textContent = "Cronos IA — Síntese";
+      const tx = document.createElement("p");
+      tx.textContent = textosCronos[chave] || "";
+      box.appendChild(st);
+      box.appendChild(tx);
+    });
+  </script>
 </body>
 </html>
