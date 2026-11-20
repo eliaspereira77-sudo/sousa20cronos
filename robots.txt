@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://eliaspereira77-sudo.github.io/sousa20cronos/sitemap.xml
