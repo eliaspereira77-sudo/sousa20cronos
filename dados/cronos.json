@@ -1,0 +1,136 @@
+{
+  "metadados": {
+    "titulo": "Sousa 20 Cronos — 1926 a 2026 (80 Países, Cultura Local & Rádio 24/7)",
+    "autor": "Elias Pereira de Sousa",
+    "local": "Itinga do Pará - PA",
+    "vozMestre": "voz_mestre_elias.wav",
+    "faixasAudioOpcional": {}
+  },
+  "perfilFundador": {
+    "nome": "Elias Pereira de Sousa",
+    "titulo": "Idealizador do Sousa 20 Cronos & Ecossistema SOUSA 2.0",
+    "localidade": "Itinga do Pará - PA, Brasil",
+    "foto": "./foto_elias.jpg",
+    "bio": "Eterno Aprendiz, estudante de Análise e Desenvolvimento de Sistemas (UNOPAR) e criador do ecossistema SOUSA 2.0, do portal Sousa 20 Cronos (1926–2026) e do blog Tecnologia Viva. Atua em Itinga do Pará na EMEF Dionísio Lima (sob a gestão de Olga Dias Lima) e na Casa de Carnes Gavião (com Seu Liu Gavião), conectando memória de um século, cultura global e tecnologia."
+  },
+  "marcos": [
+    { "decada": "1920s–30s", "titulo": "Raízes do Rádio, Crônicas e Primeiros Registros", "resumo": "Consolidação das transmissões radiofônicas, crônicas, música popular e memória que inauguraram a comunicação de massa." },
+    { "decada": "1950s–60s", "titulo: "Expansão da Televisão, Radionovelas e Novos Sons", "resumo": "Chegada da TV aos lares, festivais, programas musicais e transformação da linguagem cultural e audiovisual." },
+    { "decada": "1980s", "titulo: "Cultura Pop, Animações, Tokusatsu e Rádio FM", "resumo": "Década marcante de trilhas inesquecíveis, séries, desenhos, filmes, estética vibrante e forte identidade geracional." },
+    { "decada": "2000s–2026", "titulo: "Internet, Acervos Digitais e Inteligência Artificial", "resumo": "Preservação histórica acessível em escala global, conectando a memória de cem anos às ferramentas atuais." }
+  ],
+  "itens80": [
+    { "cat": "Música & Rádio FM", "titulo": "Trilhas, Bandas e Ondas que Marcaram Época", "resumo": "Canções, rádios FM, trilhas televisivas e encontros que deram trilha sonora à memória dos anos 80." },
+    { "cat": "Séries & Animações", "titulo: "Tokusatsu, Heróis e Clássicos de Tela", "umo": "Séries de ação, animações e aventuras que reuniram gerações diante da TV e moldaram o imaginário oitentista." },
+    { "cat": "Cultura & Cotidiano", "titulo": "Fitas Cassete, Revistas, Cinema & Fé", "resumo": "A vivência cotidiana entre discos, fitas, cinema, tradições familiares e os primeiros passos da era digital." }
+  ],
+  "blocos247": [
+    "Bloco 01 — Abertura Cronos 1926–2026, Rádio & Identidade Local",
+    "Bloco 02 — Cultura dos Anos 80, Trilhas, TV & Memória Popular",
+    "Bloco 03 — Reflexão, Fé & Espiritualidade (Protestante, Católica e Hebraica)"
+  ],
+  "textosCronos": {
+    "radiodifusao": "O rádio aproximou cidades, lares e culturas com voz, notícia e música, criando a memória viva de cada geração.",
+    "anos80": "Os anos 80 uniram trilhas marcantes, séries, cultura pop e transformações que seguem vivos na memória coletiva.",
+    "feETradicoes": "A dimensão espiritual e cultural — contemplando tradições protestante, católica e hebraica — atravessa séculos de história humana.",
+    "eraDigital": "A preservação digital permite que cada povo acesse sua própria história de 1926 a 2026 com respeito à sua identidade local."
+  },
+  "canaisPortal": [
+    { "nome": "Blog Tecnologia Viva", "desc": "Artigos, tecnologia e ecossistema SOUSA 2.0", "url": "https://eliaspereiradesousa77.blogspot.com/" },
+    { "nome": "YouTube — @EliasPereiradeSousa1977", "desc": "Vídeos, shorts, memória e conteúdos do canal", "url": "https://www.youtube.com/@EliasPereiradeSousa1977" },
+    { "nome": "Instagram — @Eliasdesousa1977", "desc": "Perfil oficial no Instagram", "url": "https://www.instagram.com/eliasdesousa1977/" },
+    { "nome: "Instagram — @pereiradesousaelias", "desc": "Perfil secundário no Instagram", "url": "https://www.instagram.com/pereiradesousaelias/" },
+    { "nome": "X — @eliasdesousa77", "desc": "Atualizações e publicações no X", "url": "https://x.com/eliasdesousa77" },
+    { "nome: "Portal Sousa 20 Cronos", "desc": "Acervo cultural 1926–2026 no GitHub Pages", "url": "https://eliaspereira77-sudo.github.io/sousa20cronos/" }
+  ],
+  "regioes": {
+    "Américas": [
+      ["Brasil", "Português", "pt-BR", "Bem-vindo à Rádio Sousa 20 Cronos, no ar 24 horas por dia, 7 dias por semana, com a voz de Elias Pereira de Sousa.", "MPB, samba, rádio de época, cultura dos anos 80 e tradições cristãs"],
+      ["Argentina", "Espanhol", "es-AR", "Bienvenido a Radio Sousa 20 Cronos, transmitiendo 24/7 con la voz digital de Elias Pereira de Sousa.", "Rock nacional, tango, rádio FM, cultura dos anos 80 e tradições locais"],
+      ["Estados Unidos", "Inglês", "en-US", "Welcome to Radio Sousa 20 Cronos, broadcasting 24/7 with the digital voice of Elias Pereira de Sousa.", "Classic radio, pop/rock and synth of the 80s, cinema and diverse faith traditions"],
+      ["Canadá", "Inglês / Francês", "en-CA", "Welcome to Radio Sousa 20 Cronos, on air 24/7 from 1926 to 2026.", "Broadcast heritage, 80s music and TV, bilingual culture and community traditions"],
+      ["México", "Espanhol", "es-MX", "Bienvenido a Radio Sousa 20 Cronos, en vivo las 24 horas, los 7 días de la semana.", "Época de oro, baladas e pop dos anos 80, rádio e fé popular"],
+      ["Chile", "Espanhol", "es-CL", "Bienvenido a Radio Sousa 20 Cronos, memoria y cultura de 1926 a 2026.", "Música chilena, rádio, memória dos anos 80 e tradições culturais"],
+      ["Colômbia", "Espanhol", "es-CO", "Bienvenido a Radio Sousa 20 Cronos, transmisión continua 24/7.", "Ritmos regionais, rádio, cultura dos anos 80 e memória histórica"],
+      ["Peru", "Espanhol", "es-PE", "Bienvenido a Radio Sousa 20 Cronos, historia y radio global 24/7.", "Criollismo, pop/rock dos anos 80, rádio e herança histórica"],
+      ["Uruguai", "Espanhol", "es-UY", "Bienvenido a Radio Sousa 20 Cronos en transmisión continua.", "Música rioplatense, rádio, cultura dos anos 80 e tradições locais"],
+      ["Paraguai", "Espanhol / Guarani", "es-PY", "Bienvenido a Radio Sousa 20 Cronos, cultura y memoria 24/7.", "Guaranía, rádio, identidade bilíngue e memória dos anos 80"],
+      ["Bolívia", "Espanhol", "es-BO", "Bienvenido a Radio Sousa 20 Cronos, programación continua.", "Folclore andino, rádio, memória dos anos 80 e cultura local"],
+      ["Equador", "Espanhol", "es-EC", "Bienvenido a Radio Sousa 20 Cronos, 24 horas al día.", "Pasillo, rádio, cultura dos anos 80 e memória regional"],
+      ["Venezuela", "Espanhol", "es-VE", "Bienvenido a Radio Sousa 20 Cronos en señal continua.", "Música popular, TV e rádio dos anos 80 e identidade cultural"],
+      ["Costa Rica", "Espanhol", "es-CR", "Bienvenido a Radio Sousa 20 Cronos, 24/7.", "Cultura centro-americana, rádio, anos 80 e tradições locais"],
+      ["Panamá", "Espanhol", "es-PA", "Bienvenido a Radio Sousa 20 Cronos en emisión continua.", "Música e rádio, cultura dos anos 80 e memória histórica"],
+      ["Cuba", "Espanhol", "es-CU", "Bienvenido a Radio Sousa 20 Cronos, memoria musical e histórica.", "Son, bolero, rádio histórica e memória cultural"],
+      ["República Dominicana", "Espanhol", "es-DO", "Bienvenido a Radio Sousa 20 Cronos, 24/7.", "Merengue, rádio, cultura dos anos 80 e tradições locais"],
+      ["Guatemala", "Espanhol", "es-GT", "Bienvenido a Radio Sousa 20 Cronos, 24/7.", "Cultura maia e mestra, rádio e memória dos anos 80"],
+      ["Honduras", "Espanhol", "es-HN", "Bienvenido a Radio Sousa 20 Cronos, 24/7.", "Rádio, música e cultura popular de 1926 a 2026"],
+      ["El Salvador", "Espanhol", "es-SV", "Bienvenido a Radio Sousa 20 Cronos, 24/7.", "Memória cultural, rádio e tradições locais"]
+    ],
+    "Europa": [
+      ["Portugal", "Português", "pt-PT", "Bem-vindo à Rádio Sousa 20 Cronos, em emissão contínua 24 horas por dia, 7 dias por semana.", "Fado, pop dos anos 80, rádio histórica e tradições culturais"],
+      ["Espanha", "Espanhol", "es-ES", "Bienvenido a Radio Sousa 20 Cronos, emisión continua las 24 horas.", "Movida dos anos 80, pop/rock espanhol, rádio e patrimônio cultural"],
+      ["Itália", "Italiano", "it-IT", "Benvenuti su Radio Sousa 20 Cronos, in onda 24 ore su 24, 7 giorni su 7.", "Canzone italiana, Italo disco dos anos 80, cinema, rádio e tradição católica"],
+      ["França", "Francês", "fr-FR", "Bienvenue sur Radio Sousa 20 Cronos, en direct 24h/24 et 7j/7.", "Chanson française, variétés e synth dos anos 80, cinema e rádio"],
+      ["Alemanha", "Alemão", "de-DE", "Willkommen bei Radio Sousa 20 Cronos, rund um die Uhr auf Sendung.", "Pop/eletrônico dos anos 80, rádio, filosofia e tradição protestante/católica"],
+      ["Reino Unido", "Inglês", "en-GB", "Welcome to Radio Sousa 20 Cronos, broadcasting 24/7 across a century of culture.", "BBC heritage, British pop/rock of the 80s, TV classics and faith history"],
+      ["Irlanda", "Inglês / Irlandês", "en-IE", "Welcome to Radio Sousa 20 Cronos, live 24/7.", "Folk e pop dos anos 80, literatura, rádio e tradição local"],
+      ["Suíça", "Alemão / Francês / Italiano", "de-CH", "Willkommen bei Radio Sousa 20 Cronos, 24/7.", "Cultura multilingue, rádio, relojoaria/precisão e memória dos anos 80"],
+      ["Áustria", "Alemão", "de-AT", "Willkommen bei Radio Sousa 20 Cronos, 24/7.", "Música clássica e pop dos anos 80, rádio e tradição europeia"],
+      ["Bélgica", "Neerlandês / Francês", "fr-BE", "Bienvenue sur Radio Sousa 20 Cronos, 24/7.", "Quadrinhos, pop/new wave dos anos 80, rádio e cultura local"],
+      ["Países Baixos", "Neerlandês", "nl-NL", "Welkom bij Radio Sousa 20 Cronos, 24/7 live.", "Pop dos anos 80, rádio marítima/FM e cultura holandesa"],
+      ["Suécia", "Sueco", "sv-SE", "Välkommen till Radio Sousa 20 Cronos, dygnet runt.", "Pop nórdico, rádio e memória dos anos 80"],
+      ["Noruega", "Norueguês", "nb-NO", "Velkommen til Radio Sousa 20 Cronos, 24/7.", "Música nórdica, rádio e cultura dos anos 80"],
+      ["Dinamarca", "Dinamarquês", "da-DK", "Velkommen til Radio Sousa 20 Cronos, hele døgnet.", "Cultura dinamarquesa, rádio e memória dos anos 80"],
+      ["Finlândia", "Finlandês", "fi-FI", "Tervetuloa Radio Sousa 20 Cronos -kanavalle, 24/7.", "Música finlandesa, rádio e cultura dos anos 80"],
+      ["Polônia", "Polonês", "pl-PL", "Witamy w Radio Sousa 20 Cronos, nadajemy 24/7.", "Memória histórica, música, rádio e resiliência cultural"],
+      ["Grécia", "Grego", "el-GR", "Καλώς ήρθατε στο Radio Sousa 20 Cronos, 24/7.", "Música grega, memória antiga e moderna, rádio e tradições"],
+      ["Romênia", "Romeno", "ro-RO", "Bun venit la Radio Sousa 20 Cronos, 24/7.", "Música, rádio e identidade cultural de 1926 a 2026"],
+      ["Hungria", "Húngaro", "hu-HU", "Üdvözöljük a Radio Sousa 20 Cronos műsorán, éjjel-nappal.", "Cultura da Europa Central, rádio e memória dos anos 80"],
+      ["República Tcheca", "Tcheco", "cs-CZ", "Vítejte v Rádiu Sousa 20 Cronos, 24/7.", "Cinema, música, rádio e tradição histórica"],
+      ["Croácia", "Croata", "hr-HR", "Dobrodošli na Radio Sousa 20 Cronos, 24/7.", "Adriático, música, rádio e memória cultural"],
+      ["Ucrânia", "Ucraniano", "uk-UA", "Вітаємо на Radio Sousa 20 Cronos, цілодобово 24/7.", "Canção popular, rádio e memória histórica"],
+      ["Islândia", "Islandês", "is-IS", "Velkomin á Radio Sousa 20 Cronos, allan sólarhringinn.", "Cultura nórdica insular, rádio e música"],
+      ["Estônia", "Estoniano", "et-EE", "Tere tulemast Radio Sousa 20 Cronos kanalile, 24/7.", "Cultura báltica, canção e rádio"],
+      ["Lituânia", "Lituano", "lt-LT", "Sveiki atvykę į Radio Sousa 20 Cronos, 24/7.", "Memória báltica, rádio e cultura local"]
+    ],
+    "Ásia & Pacífico": [
+      ["Japão", "Japonês", "ja-JP", "Sousa 20 Cronos ラジオへようこそ、24時間365日放送中です。", "Tokusatsu, animes, city pop dos anos 80, rádio e tradição cultural"],
+      ["Coreia do Sul", "Coreano", "ko-KR", "Sousa 20 Cronos 라디오에 오신 것을 환영합니다, 24시간 7일 방송됩니다.", "Baladas e pop dos anos 80, rádio, TV e transformação cultural"],
+      ["China", "Mandarim", "zh-CN", "欢迎收听 Sousa 20 Cronos 电台，全天候24小时不间断播出。", "Canto-pop/mandopop dos anos 80, memória histórica e rádio"],
+      ["Índia", "Hindi / Inglês", "hi-IN", "रेडियो Sousa 20 Cronos में आपका स्वागत है, 24/7 प्रसारण जारी है।", "Cinema e trilhas musicais, rádio, diversidade cultural e espiritualidade"],
+      ["Austrália", "Inglês", "en-AU", "Welcome to Radio Sousa 20 Cronos, on air 24/7.", "80s rock/pop, surf/coastal culture, radio and Pacific heritage"],
+      ["Nova Zelândia", "Inglês / Maori", "en-NZ", "Welcome to Radio Sousa 20 Cronos, broadcasting 24/7.", "Maori heritage, 80s music, radio and Pacific identity"],
+      ["Tailândia", "Tailandês", "th-TH", "ยินดีต้อนรับสู่วิทยุ Sousa 20 Cronos ออกอากาศตลอด 24 ชั่วโมง", "Música tailandesa, rádio e tradições culturais"],
+      ["Indonésia", "Indonésio", "id-ID", "Selamat datang di Radio Sousa 20 Cronos, siaran 24/7.", "Música, rádio e diversidade cultural do arquipélago"],
+      ["Vietnã", "Vietnamita", "vi-VN", "Chào mừng đến với Radio Sousa 20 Cronos, phát sóng 24/7.", "Memória musical, rádio e tradições culturais"],
+      ["Filipinas", "Filipino / Inglês", "en-PH", "Welcome to Radio Sousa 20 Cronos, 24/7.", "OPM e baladas dos anos 80, rádio, TV e fé comunitária"],
+      ["Malásia", "Malaio", "ms-MY", "Selamat datang ke Radio Sousa 20 Cronos, 24/7.", "Multiculturalismo, rádio e memória musical"],
+      ["Singapura", "Inglês / Malaio / Mandarim", "en-SG", "Welcome to Radio Sousa 20 Cronos, 24/7.", "Rádio multilíngue, cultura dos anos 80 e memória urbana"],
+      ["Taiwan", "Mandarim", "zh-TW", "歡迎收聽 Sousa 20 Cronos 電台，24小時全天候播出。", "Canções dos anos 80, rádio e cultura local"],
+      ["Mongólia", "Mongol", "mn-MN", "Sousa 20 Cronos радиод тавтай морил, 24/7.", "Estepes, música tradicional e rádio"],
+      ["Cazaquistão", "Cazaque", "kk-KZ", "Radio Sousa 20 Cronos эфиріне қош келдіңіз, 24/7.", "Cultura das estepes, música e rádio"],
+      ["Sri Lanka", "Cingalês / Tâmil", "si-LK", "Radio Sousa 20 Cronos වෙත සාදරයෙන් පිළිගනිමු, 24/7.", "Música, rádio e memória cultural"],
+      ["Nepal", "Nepalês", "ne-NP", "Radio Sousa 20 Cronos मा स्वागत छ, २४/७ प्रसारण।", "Tradição do Himalaia, música e rádio"],
+      ["Cambodja", "Khmer", "km-KH", "សូមស្វាគមន៍មកកាន់វិទ្យុ Sousa 20 Cronos ផ្សាយផ្ទាល់ ២៤/៧។", "Golden era musical, rádio e cultura local"],
+      ["Laos", "Laosiano", "lo-LA", "ຍິນດີຕ້ອນຮັບສູ່ວິທະຍຸ Sousa 20 Cronos ອອກອາກາດ 24/7.", "Música, rádio e tradições locais"],
+      ["Fiji", "Inglês / Fijiano", "en-FJ", "Welcome to Radio Sousa 20 Cronos, 24/7.", "Cultura do Pacífico Sul, música e rádio"]
+    ],
+    "África & Oriente Médio": [
+      ["África do Sul", "Inglês / Zulu / Africâner", "en-ZA", "Welcome to Radio Sousa 20 Cronos, live 24/7.", "Bubblegum/pop dos anos 80, vozes africanas, rádio e diversidade"],
+      ["Angola", "Português", "pt-PT", "Bem-vindo à Rádio Sousa 20 Cronos, no ar 24 horas por dia, 7 dias por semana.", "Semba, kizomba, rádio e memória cultural lusófona"],
+      ["Moçambique", "Português", "pt-PT", "Bem-vindo à Rádio Sousa 20 Cronos, emissão contínua 24/7.", "Marrabenta, rádio, cultura dos anos 80 e memória local"],
+      ["Cabo Verde", "Português", "pt-PT", "Bem-vindo à Rádio Sousa 20 Cronos, 24/7.", "Morna, coladeira, rádio e identidade atlântica"],
+      ["Nigéria", "Inglês", "en-NG", "Welcome to Radio Sousa 20 Cronos, broadcasting 24/7.", "Highlife/afrobeat, 80s sound, radio and vibrant culture"],
+      ["Egito", "Árabe", "ar-EG", "مرحبًا بكم في راديو Sousa 20 Cronos على مدار الساعة طوال أيام الأسبوع.", "Música clássica árabe, cinema, rádio e memória milenar"],
+      ["Marrocos", "Árabe / Francês", "ar-MA", "مرحبًا بكم في راديو Sousa 20 Cronos، بث متواصل 24/7.", "Música, rádio e herança cultural do Magrebe"],
+      ["Quênia", "Suaíli / Inglês", "sw-KE", "Karibu kwenye Redio Sousa 20 Cronos, matangazo masaa 24/7.", "Benga, rádio em suaíli e cultura da África Oriental"],
+      ["Gana", "Inglês", "en-GH", "Welcome to Radio Sousa 20 Cronos, live 24/7.", "Highlife, rádio e memória cultural de Gana"],
+      ["Etiópia", "Amárico", "am-ET", "ወደ Radio Sousa 20 Cronos እንኳን በደህና መጡ፣ 24/7።", "Ethio-jazz e música dos anos 70/80, rádio e tradição antiga"],
+      ["Senegal", "Francês", "fr-SN", "Bienvenue sur Radio Sousa 20 Cronos, en direct 24/7.", "Mbalax, rádio e cultura da África Ocidental"],
+      ["Tanzânia", "Suaíli / Inglês", "sw-TZ", "Karibu Redio Sousa 20 Cronos, hewani 24/7.", "Música, rádio em suaíli e tradições locais"],
+      ["Tunísia", "Árabe / Francês", "ar-TN", "مرحبًا بكم في راديو Sousa 20 Cronos، 24/7.", "Cultura mediterrânea, música e rádio"],
+      ["Argélia", "Árabe", "ar-DZ", "مرحبًا بكم في راديو Sousa 20 Cronos، 24/7.", "Raï e música argelina, rádio e memória dos anos 80"],
+      ["Israel", "Hebraico / Árabe", "he-IL", "ברוכים הבאים לרדיו Sousa 20 Cronos, שידור רציף 24/7.", "Música em hebraico e árabe, rádio, memória histórica e tradição hebraica"]
+    ]
+  }
+}
